@@ -1,0 +1,8 @@
+sudo -u postgres psql
+create database scamsapp;
+\c scamsapp
+create table scamstable (id int primary key,
+  latitude float(5),
+  longitude float(5),
+  category varchar(255),
+  description varchar(500));
