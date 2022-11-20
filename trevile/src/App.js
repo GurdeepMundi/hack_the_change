@@ -1,11 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import Button from 'react-bootstrap'
+import Button from 'react-bootstrap';
+import map from './images/map.png'
+import PopUp from './PopUp'
 
 function App() {
   return (
     <div className="App">
-      <button>found a problem?</button>
+      <img src={map} id="map" height={600} width={1100} />
+      <PopUp></PopUp>
     </div>
   );
 }
