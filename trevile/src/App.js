@@ -56,7 +56,7 @@ export default function App() {
   return (
     <div style={{ height: "90vh", width: "90%", margin:"0% 2%" }}>
       <GoogleMapReact
-        bootstrapURLKeys={{ key: "AIzaSyD9FBTj2odKmESaYWliBrQqr9IThvoLx0M" }}
+        bootstrapURLKeys={{ key: "SecretKey" }}
         defaultCenter={{ lat: 52.6376, lng: -1.135171 }}
         defaultZoom={10}
         yesIWantToUseGoogleMapApiInternals
